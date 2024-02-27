@@ -1,0 +1,31 @@
+problrmas para subir tras problemas con npm install y borra temporales y todo el sistema operativo dañando el ssh
+solucion ssh
+
+
+User
+me ds este problema git config --global user.email "you@example.com"
+
+ChatGPT
+El comando que has proporcionado configura tu dirección de correo electrónico a nivel global en Git. Esto significa que esta dirección de correo electrónico se utilizará para todos los repositorios Git en tu sistema, a menos que se sobrescriba con una configuración específica para un repositorio en particular.
+
+Para ejecutar este comando, simplemente abre tu terminal o línea de comandos y escribe:
+
+arduino
+Copy code
+git config --global user.email "tu@email.com"
+Reemplaza "tu@email.com" con tu dirección de correo electrónico real.
+
+Este comando es útil para asociar tus commits en Git con una dirección de correo electrónico específica para identificar quién realizó los cambios en un repositorio.
+
+
+
+
+ssh-keygen -t rsa -b 4096 -C "cristian-stolzenbach@hotmail.com"
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+git config --global cristian-stolzenbach@hotmail.com
+ssh -T git@github.com
+git config --global cristian-stolzenbach@hotmail.com
+ssh -T git@github.com
+git config --global user.email "cristian-stolzenbach@hotmail.com"
+git config --global user.name "Cristian-Stolzenbach"
